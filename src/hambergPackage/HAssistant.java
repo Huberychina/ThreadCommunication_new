@@ -1,0 +1,5 @@
+package hambergPackage;
+
+class HAssistant {
+
+}
