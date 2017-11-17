@@ -14,13 +14,9 @@ class HAssistant extends Thread{
 					System.out.println("汉堡数量不够了，请各位稍等");
 					Ham.basket.wait();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					
-				}
-				
-			}
-			
-			
+					// TODO Auto-generated catch block	
+				}	
+			}	
 		}
 		}
 	public void run(){
